@@ -36,6 +36,10 @@ namespace ReadLater.Data
         {
             EntityTypeConfiguration<Category> categoryMap = modelBuilder.Entity<Category>();
             EntityTypeConfiguration<Bookmark> bookmarkMap = modelBuilder.Entity<Bookmark>();
+            EntityTypeConfiguration<UserBookmark> userBookmarkMap = modelBuilder.Entity<UserBookmark>();
+            EntityTypeConfiguration<UserFriendBookmark> UserFriendBookmarkMap = modelBuilder.Entity<UserFriendBookmark>();
+            EntityTypeConfiguration<UserBookmark1> userBookmarkMap1 = modelBuilder.Entity<UserBookmark1>();
+            EntityTypeConfiguration<UserFriendBookmark1> UserFriendBookmarkMap1 = modelBuilder.Entity<UserFriendBookmark1>();
         }
 
         public System.Data.Entity.DbSet<ReadLater.Entities.Category> Categories { get; set; }
