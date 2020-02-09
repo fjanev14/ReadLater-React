@@ -47,10 +47,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbContextExtension.cs" />
+    <Compile Include="Dtos\AddUserBookmark.cs" />
+    <Compile Include="Dtos\UserBookmarkDto.cs" />
+    <Compile Include="Dtos\UserFriendDto.cs" />
     <Compile Include="IDbContext.cs" />
     <Compile Include="Migrations\201405071026235_Initial.cs" />
     <Compile Include="Migrations\201405071026235_Initial.Designer.cs">
       <DependentUpon>201405071026235_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002072211420_add_table_UserBookmark.cs" />
+    <Compile Include="Migrations\202002072211420_add_table_UserBookmark.Designer.cs">
+      <DependentUpon>202002072211420_add_table_UserBookmark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002080151531_update_models.cs" />
+    <Compile Include="Migrations\202002080151531_update_models.Designer.cs">
+      <DependentUpon>202002080151531_update_models.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002081211167_some_migration.cs" />
+    <Compile Include="Migrations\202002081211167_some_migration.Designer.cs">
+      <DependentUpon>202002081211167_some_migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002081500123_change_of_models.cs" />
+    <Compile Include="Migrations\202002081500123_change_of_models.Designer.cs">
+      <DependentUpon>202002081500123_change_of_models.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,6 +88,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201405071026235_Initial.resx">
       <DependentUpon>201405071026235_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002072211420_add_table_UserBookmark.resx">
+      <DependentUpon>202002072211420_add_table_UserBookmark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002080151531_update_models.resx">
+      <DependentUpon>202002080151531_update_models.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002081211167_some_migration.resx">
+      <DependentUpon>202002081211167_some_migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002081500123_change_of_models.resx">
+      <DependentUpon>202002081500123_change_of_models.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

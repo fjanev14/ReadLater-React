@@ -46,6 +46,10 @@
     <Compile Include="IObjectState.cs" />
     <Compile Include="ObjectState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserBookmark.cs" />
+    <Compile Include="UserBookmark1.cs" />
+    <Compile Include="UserFriendBookmark.cs" />
+    <Compile Include="UserFriendBookmark1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

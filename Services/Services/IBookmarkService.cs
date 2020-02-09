@@ -7,5 +7,8 @@ namespace ReadLater.Services
     {
         Bookmark CreateBookmark(Bookmark bookmark);
         List<Bookmark> GetBookmarks(string category);
+        bool UpdateBookmark(Bookmark bookmark);
+        void DeleteBookmark(Bookmark bookmark);
+        Bookmark GetBookmark(int ID);
     }
 }

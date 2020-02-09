@@ -42,10 +42,16 @@
     <Compile Include="BookmarkService.cs" />
     <Compile Include="CategoryService.cs" />
     <Compile Include="IBookmarkService.cs" />
+    <Compile Include="IUserBookmarkService.cs" />
     <Compile Include="ICategoryService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserBookmarkService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Data\Data\Data.csproj">
+      <Project>{A00E8073-2C8C-4403-82D9-4707573507FB}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Entities\Entities\Entities.csproj">
       <Project>{24daa595-f413-4f33-8df7-ad61b3387f03}</Project>
       <Name>Entities</Name>
